@@ -1,0 +1,5 @@
+For my scratch assignment, I decided to create an interactive drumset. My original idea was to have the drums be controlled with the arrow keys, but once I saw the "when this sprite is clicked" event, I changed my mind.
+My first priority was too make sure my sprites would stay in the right place. After taking a cartoon image of a drumset and splitting it into 5 different sprites, I created a string of commands for each sprite, saying that when the green flag is selected, they become non draggable and they go to their set positions at 100% size.
+I found sound effects online for each piece of the drumset and made each sprite play their sound when each sprite is clicked.
+I also wanted to make it clear which drum was making which sound. So my next string of commands made it so as each sprite is clicked, they grow in size for .05 seconds, just to emphasize the sound effects.
+My last idea was to make a counter for your clicks on each drum. I created a variable for each sprite that goes up by one each time the sprite is clicked. Once each variable reaches 25, a message will pop up, telling you you've clicked the drum 25 times, then goes away after 2 seconds.
